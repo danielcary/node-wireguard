@@ -10,7 +10,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "build": "node-gyp build"
+    "build": "node-gyp build",
+    "test": "node test/wireguard.test.js"
   },
   "repository": {
     "type": "git",
